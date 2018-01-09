@@ -1,5 +1,5 @@
 
 
 
-def test_function(request):
-    return request.method == 'POST'
+def test_function(request, response):
+    return request.method == 'POST', response

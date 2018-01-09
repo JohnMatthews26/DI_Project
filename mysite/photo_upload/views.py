@@ -7,9 +7,10 @@ from . import test
 # from PIL import Image
 @csrf_exempt
 def mainview(request):
-    print (request)
+
     return render(request, 'photo_upload/mainview.html')
 def img(request):
     photo = request.FILES
-    # print (test.test_function(request)
-    return HttpResponse(photo.getlist('img')[0].read(), content_type="image/jpeg")
+    response = HttpResponse(photo.getlist('img')[0].read(), content_type="image/jpeg")
+    print (test.test_function(request, response))
+    return response
