@@ -1,4 +1,4 @@
-
+from django.test import Client
 
 
 def test_function(request, response):
