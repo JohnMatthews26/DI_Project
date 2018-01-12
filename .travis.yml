@@ -8,4 +8,4 @@ install: true
 #   - python3 manage.py runserver
 #   - ./manage.py test photo_upload.tests
   script:
-    - python3 manage.py test
+    - python3re manage.py test
