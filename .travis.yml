@@ -4,4 +4,5 @@ python:
   - 3.6
 
 scripts:
+  - python3 manage.py runserver
   - ./manage.py test photo_upload.tests
