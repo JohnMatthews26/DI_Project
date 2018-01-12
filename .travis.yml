@@ -4,6 +4,6 @@ python:
   - 3.6
 install: true
 
-scripts:
+script:
   - manage.py runserver
   - ./manage.py test photo_upload.tests
