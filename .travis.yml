@@ -2,7 +2,8 @@ language: python
 
 python:
   - 3.6
-install: true
+install:
+  - pip install django
 
 script:
   - python ./mysite/manage.py test photo_upload.tests
