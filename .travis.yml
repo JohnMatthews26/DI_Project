@@ -5,5 +5,5 @@ python:
 install: true
 
 script:
-  - manage.py runserver
+  - python3 manage.py runserver
   - ./manage.py test photo_upload.tests
