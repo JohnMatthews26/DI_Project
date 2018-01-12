@@ -5,4 +5,4 @@ python:
 install: true
 
 script:
-  - python manage.py test
+  - python ./mysite/manage.py test photo_upload.tests
