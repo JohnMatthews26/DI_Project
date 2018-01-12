@@ -4,5 +4,5 @@ python:
   - 3.6
 install: true
 
-  script:
-    - python3 manage.py test
+script:
+  - python3 manage.py test
