@@ -2,3 +2,6 @@ language: python
 
 python:
   - 3.6
+
+scripts:
+  - ./manage.py test photo_upload.tests

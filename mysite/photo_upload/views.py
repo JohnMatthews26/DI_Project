@@ -13,5 +13,4 @@ def mainview(request):
 def img(request):
     photo = request.FILES
     response = HttpResponse(photo.getlist('img')[0].read(), content_type="image/jpeg")
-    print (test.test_function(request, response))
     return response
