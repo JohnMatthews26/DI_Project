@@ -3,7 +3,8 @@ from django.http import HttpResponse, HttpResponseRedirect, HttpRequest
 from django.template import loader
 from django.views.decorators.csrf import csrf_exempt
 from django.core.files import File
-from . import test
+from . import mytest
+
 # from PIL import Image
 @csrf_exempt
 def mainview(request):

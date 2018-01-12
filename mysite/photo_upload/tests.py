@@ -1,3 +1,7 @@
 from django.test import TestCase
+from django.test import Client
 
-# Create your tests here.
+def test_function():
+    c = Client()
+    response = c.get('')
+    return response.content
